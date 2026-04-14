@@ -1,4 +1,4 @@
-# <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHBhdGggZD0iTTIgMTZDMiA4LjI2ODAxIDguMjY4MDEgMiAxNiAyQzIzLjczMiAyIDMwIDguMjY4MDEgMzAgMTZIMloiIGZpbGw9IiNGRjFDMUMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iNCIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPg==" width="28" vertical-align="middle"> PokéDex - PokéAPI Project
+# <img src="pokeball.svg" width="28" vertical-align="middle"> PokéDex - PokéAPI Project
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -6,7 +6,7 @@
 ![PokéAPI](https://img.shields.io/badge/PokéAPI-EF5350?style=for-the-badge&logo=pokemon&logoColor=white)
 
 ## 🌐 Live Demo
-[Check out the live project here!](https://urion-sertor.github.io/introduccion-a-peticiones-get/)
+[Check out the live project here!](https://urion-sertor.github.io/pokedex/)
 
 A modern, responsive Pokédex application built with vanilla JavaScript, HTML5, and CSS3. This project demonstrates how to consume a REST API (PokéAPI) and handle asynchronous operations efficiently.
 
