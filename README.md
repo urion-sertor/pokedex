@@ -42,7 +42,7 @@ A modern, responsive Pokédex application built with vanilla JavaScript, HTML5, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/urion-sertor/introduccion-a-peticiones-get.git
+   git clone https://github.com/urion-sertor/pokedex.git
    ```
 2. Open `index.html` in your favorite web browser.
 3. Enjoy exploring the Pokémon world!
