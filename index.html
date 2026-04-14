@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Oriol Torres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header: Logo, main navigation, and search -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="pokeball"></span>
+                PokéDex
+            </div>
+            <nav>
+                <ul>
+                    <!-- IDs to capture clicks from JS and switch sections -->
+                    <li><a href="#" id="link-home" class="active">Home</a></li>
+                    <li><a href="#" id="link-habitat">Habitats</a></li>
+                    <li><a href="#" id="link-objects">Items</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" id="input-search" placeholder="Name or ID...">
+                <button id="btn-search">Search</button>
+            </div>
+            <!-- Night mode toggle button -->
+            <button id="btn-night-mode" title="Toggle light/dark mode">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="section-home">
+            <h1>Welcome to the Pokédex</h1>
+            <p>Discover information about all Pokémon, their habitats, and items from the Pokémon world.</p>
+            <!-- JS injects Pokémon cards here -->
+            <div id="pokemon-container" class="grid-container"></div>
+            <button id="btn-load-more">Show more Pokémon</button>
+        </section>
+
+        <!-- Habitats -->
+        <!-- Starts with .hidden class because Home is the default view -->
+        <section id="section-habitat" class="hidden">
+            <h1>Pokémon Habitats</h1>
+            <!-- Dynamically generated habitat buttons -->
+            <div id="habitat-buttons-container" class="buttons-container"></div>
+            <div id="habitat-pokemon-container" class="grid-container"></div>
+            <button id="btn-load-more-habitat" class="hidden">Show more Pokémon</button>
+        </section>
+
+        <!-- Items -->
+        <section id="section-objects" class="hidden">
+            <h1>Items</h1>
+            <div id="objects-container" class="grid-container"></div>
+            <button id="btn-load-more-objects">Show more items</button>
+        </section>
+
+        <!-- Search -->
+        <section id="section-search" class="hidden">
+            <h1>Search Results</h1>
+            <div id="search-pokemon-container" class="grid-container"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="pokeball small"></span>
+                PokéDex
+            </div>
+            <p>&copy; 2026 Oriol Torres - PokéAPI Project</p>
+            <div class="footer-links">
+                <a href="https://pokeapi.co/" target="_blank">PokeAPI.co</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
